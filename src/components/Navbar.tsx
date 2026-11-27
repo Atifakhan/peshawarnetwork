@@ -31,13 +31,13 @@ export default function Navbar({ onOpenDialer }: NavbarProps) {
         {/* Zone 2: Concise Single-Line Navigation Links */}
         <nav
           aria-label="Primary navigation"
-          className="hidden md:flex items-center gap-7 text-sm font-medium text-[#3C4E45] dark:text-[#B4C5BC]"
+          className="hidden md:flex items-center gap-1 rounded-2xl border border-[#DCE5DF] dark:border-[#294536] bg-[#F4F7F5] dark:bg-[#13201A] p-1.5 text-sm font-semibold text-[#3C4E45] dark:text-[#B4C5BC]"
         >
           {NAV_LINKS.map((link) => (
             <a
               key={link.href}
               href={link.href}
-              className="relative py-1 transition-colors hover:text-[#007B3E] dark:hover:text-[#78BE20] whitespace-nowrap shrink-0 after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-[#007B3E] dark:after:bg-[#78BE20] after:transition-all after:duration-200 hover:after:w-full"
+              className="rounded-xl px-3 py-2 transition-all duration-200 hover:bg-white dark:hover:bg-[#203629] hover:text-[#007B3E] dark:hover:text-[#A3E635] whitespace-nowrap shrink-0 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#007B3E]"
             >
               {link.label}
             </a>
