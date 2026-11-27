@@ -327,7 +327,7 @@ export const COMMUNITY_POSTS: SocialPost[] = [
     title: 'Fresh GPON Splitter Capacity Added at GT Road PTCL Exchange',
     summary:
       'New optical distribution ports are now live for GT Road, Gulbahar, Hashtnagri, and Firdous residents—enabling 24-hour new connection turnups.',
-    imagePath: '/src/assets/images/community_gt_road_exchange_1795764061342.jpg',
+    imagePath: `${import.meta.env.BASE_URL}src/assets/images/community_gt_road_exchange_1795764061342.jpg`,
     imageAlt: 'Optical fiber distribution box and patch cables at GT Road PTCL Exchange',
     externalUrl: BUSINESS_INFO.facebookUrl,
     ctaLabel: 'View on Facebook',
@@ -340,7 +340,7 @@ export const COMMUNITY_POSTS: SocialPost[] = [
     title: 'Dual-Band Wi-Fi 6 ONT Routers Ready for 50–300 Mbps Homes',
     summary:
       'Every new Hayatabad and University Town setup includes clean wall-routing, optical dBm power verification, and dual-band 5 GHz Wi-Fi tuning.',
-    imagePath: '/src/assets/images/community_hayatabad_wifi6_1795764061448.jpg',
+    imagePath: `${import.meta.env.BASE_URL}src/assets/images/community_hayatabad_wifi6_1795764061448.jpg`,
     imageAlt: 'Dual-band Wi-Fi 6 GPON fiber router on a clean wooden desk',
     externalUrl: BUSINESS_INFO.googleProfileUrl,
     ctaLabel: 'View Google Profile',
@@ -353,7 +353,7 @@ export const COMMUNITY_POSTS: SocialPost[] = [
     title: 'On-Site Fusion Splicing & Signal Calibration Across City Peshawar',
     summary:
       'Our Peshawar field technicians test every drop cable with an optical power meter before handing over your connection so speeds stay full rate.',
-    imagePath: '/src/assets/images/community_peshawar_team_1795764061992.jpg',
+    imagePath: `${import.meta.env.BASE_URL}src/assets/images/community_peshawar_team_1795764061992.jpg`,
     imageAlt: 'Field engineer inspecting fiber optic fusion splicer and optical power meter',
     externalUrl: BUSINESS_INFO.facebookUrl,
     ctaLabel: 'Follow Facebook Page',
