@@ -57,7 +57,7 @@ export default function PackageExplorer({
             <div
               role="tablist"
               aria-label="Filter fiber packages"
-              className="inline-flex flex-wrap items-center gap-1 rounded-xl border border-[#DCE5DF] dark:border-[#1F352B] bg-white dark:bg-[#13201A] p-1"
+              className="grid w-full grid-cols-2 gap-1 rounded-2xl border border-[#DCE5DF] dark:border-[#294536] bg-white dark:bg-[#13201A] p-1.5 shadow-sm sm:inline-flex sm:w-auto sm:flex-nowrap"
             >
               {FILTER_TABS.map((tab) => (
                 <button
@@ -66,9 +66,9 @@ export default function PackageExplorer({
                   role="tab"
                   aria-selected={category === tab.id}
                   onClick={() => setCategory(tab.id)}
-                  className={`min-h-9 rounded-lg px-3 py-1.5 text-xs font-semibold transition-colors whitespace-nowrap shrink-0 cursor-pointer ${
+                  className={`relative min-h-11 rounded-xl px-3 py-2.5 text-xs sm:text-sm font-bold transition-all duration-200 whitespace-nowrap cursor-pointer focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#007B3E] ${
                     category === tab.id
-                      ? 'bg-[#007B3E] text-white'
+                      ? 'bg-[#007B3E] text-white shadow-md shadow-[#007B3E]/20 ring-1 ring-[#007B3E] dark:ring-[#78BE20]'
                       : 'text-[#3C4E45] dark:text-[#B4C5BC] hover:text-[#0F1F17] dark:hover:text-white'
                   }`}
                 >
