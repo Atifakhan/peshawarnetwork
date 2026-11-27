@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://peshawarnetwork.vercel.app/sitemap.xml
