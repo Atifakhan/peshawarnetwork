@@ -138,7 +138,7 @@ export default function HeroSection({
             <div className="mt-8 flex items-center gap-4 rounded-xl border border-[#DCE5DF] dark:border-[#1F352B] bg-white dark:bg-[#13201A] p-3.5 shadow-xs">
               <div className="h-16 w-24 shrink-0 overflow-hidden rounded-lg bg-[#EAF2ED] dark:bg-[#0B1510]">
                 <img
-                  src="${import.meta.env.BASE_URL}src/assets/images/hero_fiber_peshawar_1795764060584.jpg"
+                  src={`${import.meta.env.BASE_URL}src/assets/images/hero_fiber_peshawar_1795764060584.jpg`}
                   alt="Peshawar workspace running on PTCL Flash Fiber Wi-Fi 6 router"
                   referrerPolicy="no-referrer"
                   className="h-full w-full object-cover"
