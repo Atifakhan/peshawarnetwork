@@ -1,0 +1,6 @@
+{
+  "name": "Peshawar Flash Fiber — PTCL Authorized Broadband",
+  "description": "Official PTCL Flash Fiber internet packages, GPON installation, and local broadband support across Peshawar from GT Road PTCL Exchange.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
