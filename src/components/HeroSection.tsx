@@ -2,6 +2,7 @@ import { ArrowRight, MapPin, MessageCircle, Moon, PhoneCall, Sun } from 'lucide-
 import { motion, useReducedMotion } from 'motion/react';
 import { BUSINESS_INFO, buildWhatsAppLink } from '../data/ispData';
 import FiberOpticScene from './FiberOpticScene';
+import SceneErrorBoundary from './SceneErrorBoundary';
 
 interface HeroSectionProps {
   theme: 'light' | 'dark';
@@ -165,7 +166,9 @@ export default function HeroSection({
             transition={{ duration: 0.45, delay: 0.06, ease: [0.16, 1, 0.3, 1] }}
             className="lg:col-span-6"
           >
-            <FiberOpticScene theme={theme} />
+            <SceneErrorBoundary>
+              <FiberOpticScene theme={theme} />
+            </SceneErrorBoundary>
           </motion.div>
         </div>
 
