@@ -40,7 +40,7 @@ export default function QuadPlayShowcase() {
           <div className="lg:col-span-6">
             <div className="relative h-full min-h-[280px] overflow-hidden rounded-2xl border border-[#DCE5DF] dark:border-[#1F352B] bg-[#F4F7F5] dark:bg-[#13201A]">
               <img
-                src="${import.meta.env.BASE_URL}src/assets/images/ptcl_quadplay_entertainment_1795764409537.jpg"
+                src={`${import.meta.env.BASE_URL}src/assets/images/ptcl_quadplay_entertainment_1795764409537.jpg`}
                 alt="4K Smart TV, optical fiber router, and digital landline phone powered by PTCL Flash Fiber"
                 referrerPolicy="no-referrer"
                 className="h-full w-full object-cover"
